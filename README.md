@@ -22,6 +22,19 @@ The final pricing model produces policy-level expected loss costs and assigns po
 
 ---
 
+## Key Results
+
+| Metric | Result |
+|---|---:|
+| Portfolio predicted claim frequency | 0.1022 |
+| Portfolio pure premium | $224.90 |
+| Frequency top vs bottom decile lift | ~6.1× |
+| Severity calibration error | +5.82% |
+| Severity calibration error (without largest loss) | -0.12% |
+| High-risk segment pure premium | ~$483 |
+
+---
+
 ## Technologies Used
 
 - Python
@@ -38,7 +51,7 @@ The final pricing model produces policy-level expected loss costs and assigns po
 
 ## Data
 
-The project uses two motor insurance datasets:
+The project uses the French Motor Third-Party Liability (freMTPL2) insurance dataset, consisting of two related data files:
 
 - `freMTPL2freq.csv` — policy-level exposure and claim count data
 - `freMTPL2sev.csv` — claim-level severity data

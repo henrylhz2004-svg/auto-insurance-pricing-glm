@@ -214,6 +214,8 @@ Validation included:
 
 The model showed strong risk ordering, with observed claim frequency increasing substantially across predicted-risk deciles.
 
+![Frequency Validation](frequency_decile_validation.png)
+
 The highest-risk decile had an observed claim frequency of approximately:
 
 \[
@@ -305,6 +307,8 @@ The original Gamma model produced:
 - Predicted test-set average severity: approximately **$2,219.67**
 - Calibration difference: approximately **+5.82%**
 
+![Severity Validation](severity_decile_validation.png)
+
 The largest claim was located in the training set.
 
 After refitting the severity model without the single largest training loss:
@@ -368,6 +372,8 @@ Approximate predicted pure premiums were:
 | Medium | $185 |
 | High | $483 |
 
+![Pricing Risk Segments](pure_premium_by_risk_segment.png)
+
 Both predicted claim frequency and predicted claim severity increased across the broader risk segments.
 
 ---
@@ -375,6 +381,8 @@ Both predicted claim frequency and predicted claim severity increased across the
 # Pure Premium Diagnostic
 
 A matched subset was created using policies for which the claim count in the policy dataset matched the number of available severity records.
+
+![Pure Premium Diagnostic](pure_premium_decile_diagnostic.png)
 
 This retained approximately:
 

@@ -1,0 +1,7 @@
+pandas
+numpy
+statsmodels
+scikit-learn
+matplotlib
+SQLAlchemy
+mysql-connector-python

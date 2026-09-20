@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# PyCharm
+.idea/
+
+# Environment variables and credentials
+.env
+
+# Local raw data
+freMTPL2freq.csv
+freMTPL2sev.csv
+
+# Generated pricing output
+policy_pricing_results.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
